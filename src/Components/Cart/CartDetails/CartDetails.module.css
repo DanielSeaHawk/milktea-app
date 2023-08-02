@@ -1,0 +1,28 @@
+.CartDetails{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 750rem;
+    padding-bottom: 140rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-height: 1200rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20rem;
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 36rem;
+    margin: 0;
+}
+
+.CartList{
+    overflow: auto;
+}

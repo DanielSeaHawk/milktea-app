@@ -1,0 +1,39 @@
+.ConfirmOuter{
+    z-index: 99999;
+}
+
+.ConfirmBox{
+    position: absolute;
+    width: 700rem;
+    height: 300rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(235, 238, 241);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ConfirmText{
+    font-size: 38rem;
+    text-align: center;
+
+}
+
+.Yes, .Cancel{
+    border: 1px solid #ccc;
+    width: 180rem;
+    height: 60rem;
+    border-radius: 20px;
+    font-size: 30rem;
+}
+.Yes{
+    background-color: #fcbf49;
+    border: none;
+    margin-right: 40rem;
+}

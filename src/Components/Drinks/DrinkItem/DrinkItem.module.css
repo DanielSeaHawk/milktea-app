@@ -1,0 +1,46 @@
+.Drink {
+  border-bottom: 1px #f2f2f2 solid;
+  display: flex;
+  padding: 40rem 20rem;
+  align-items: center;
+}
+/* .ImgBox {
+  width: 240rem;
+} */
+
+/* img {
+  width: 100%;
+} */
+.Title {
+  font-weight: normal;
+  font-size: 30rem;
+  margin: 0;
+}
+
+.Desc {
+  color: #bbb;
+  padding-right: 20rem;
+  /* background-color: aquamarine; */
+  font-size: 30rem;
+  margin: 0;
+}
+
+.DescBox {
+  flex: auto;
+}
+
+.Wrapper {
+  margin-top: 40rem;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20rem;
+}
+.Price {
+  font-weight: bold;
+  font-size: 30rem;
+}
+.Price::before {
+  content: "$";
+  font-size: 30rem;
+  padding-right: 5rem;
+}

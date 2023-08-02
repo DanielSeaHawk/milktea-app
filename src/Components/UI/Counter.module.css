@@ -1,0 +1,18 @@
+.Sub,
+.Add{
+    border: none;
+    background-color: #fcbf49;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    font-size: 34rem;
+
+}
+.Sub{
+    background-color: white;
+    border: 1px solid black;
+}
+.Count{
+    font-size: 28rem;
+    margin:  0 8rem;
+}

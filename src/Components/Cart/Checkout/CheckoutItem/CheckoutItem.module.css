@@ -1,0 +1,37 @@
+.CheckoutItem{
+    display: flex;
+}
+
+.DrinksImg{
+    width: 160rem;
+
+}
+.DrinksImg img{
+    width: 100%;
+}
+
+.Title{
+font-size: 24rem;
+}
+
+.Desc{
+    flex: auto;
+    margin-left: 20rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+.PriceOuter{
+    display: flex;
+    justify-content: space-between;
+}
+.Price{
+    font-size: 26rem;
+    font-weight: bold;
+}
+
+.Price::before{
+    content: '$ ';
+    font-weight: normal;
+    font-size: 24rem;
+}

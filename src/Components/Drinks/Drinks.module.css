@@ -1,0 +1,8 @@
+.Drinks{
+    position: absolute;
+    top: 100rem;
+    bottom: 0;
+    /* background-color: rgb(65, 33, 106); */
+    overflow: auto;
+    padding-bottom: 140rem;
+}

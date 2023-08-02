@@ -1,0 +1,71 @@
+.Cart{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 700rem;
+    height: 80rem;
+    bottom: 50rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(27, 26, 26);
+    border-radius: 20px;
+    z-index: 9999;
+}
+
+.ShoppingBag{
+    width: 100rem;
+    position: absolute;
+    bottom: -10rem;
+
+}
+.ShoppingBag img{
+    width: 80%;
+    height: 100rem;
+   
+}
+.TotalAmount{
+    position: absolute;
+    width: 36rem;
+    height: 36rem;
+    line-height: 36rem;
+    text-align: center;
+    background-color: #f00;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28rem;
+    left: 60rem;
+}
+
+.Price, .NoDrinks{
+    display: flex;
+    align-items: center;
+    margin-left: 100rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36rem;
+}
+.Price::before{
+    content: '$';
+    font-size: 30rem;
+    padding-right: 5rem;
+}
+
+.NoDrinks{
+    color: #aaa;
+
+}
+
+.Button{
+    border: none;
+    background-color: #fcbf49;
+    width: 200rem;
+    border-radius: 20px;
+    font-size: 36rem;
+}
+
+.Disabled{
+    background-color: #777;
+    color: #eee;
+}
